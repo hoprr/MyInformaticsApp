@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/dashFab"
+            android:layout_height="245dp"
+            android:layout_gravity="center"
+            android:background="@drawable/banner3"
+            android:orientation="vertical">
+
+            <ViewFlipper
+                android:id="@+id/simpleViewFlipper"
+                android:layout_width="match_parent"
+                android:layout_height="245dp">
+
+            </ViewFlipper>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+                    <LinearLayout
+                        android:id="@+id/layoutDots"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="148dp"
+            android:layout_height="148dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-70dp"
+            android:elevation="10dp"
+            android:paddingBottom="4dp"/>
+
+<android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#e7e7e7"
+            app:cardElevation="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff">
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#cee8ef"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+                            <LinearLayout
+                                android:id="@+id/dash_1"
+                                style="@style/layoutStyle"
+                                android:layout_width="0dp"
+                                android:layout_marginHorizontal="1dp"
+                                android:layout_height="75dp"
+                                android:layout_weight="1"
+                                android:background="#e50000"
+                                android:paddingTop="2dp"
+                                android:orientation="vertical">
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/dash1"></ImageView>
+
+                                <TextView
+                                    style="@style/textviewstyle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="#fff"
+                                    android:textStyle="bold"
+                                    android:text=" Calculator App" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dash_2"
+                                style="@style/layoutStyle"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:background="#e50000"
+                                android:paddingTop="20dp"
+
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="27dp"
+                                    android:background="@drawable/dash2"></ImageView>
+
+                                <TextView
+                                    style="@style/textviewstyle"
+                                    android:layout_width="wrap_content"
+                                    android:textColor="#fff"
+                                    android:textStyle="bold"
+                                    android:layout_height="wrap_content"
+                                    android:text=" Tic Tac Toe App" />
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#cee8ef"
+                            android:orientation="horizontal"
+                            android:weightSum="2"  >
+
+                            <LinearLayout
+                                android:id="@+id/dash_3"
+                                android:layout_width="0dp"
+                                android:layout_height="75dp"
+                                style="@style/layoutStyle"
+                                android:layout_weight="1"
+                                android:layout_marginHorizontal="1dp"
+                                android:background="#e50000"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/dash3">
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Organisation Info"
+                                    android:textStyle="bold"
+                                    android:textColor="#fff"
+                                    style="@style/textviewstyle"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/dash_4"
+                                style="@style/layoutStyle"
+                                android:layout_width="0dp"
+                                android:background="#e50000"
+                                android:layout_height="75dp"
+                                android:layout_marginBottom="1dp"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="32dp"
+                                    android:layout_height="32dp"
+                                    android:background="@drawable/dash4">
+
+                                </ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textStyle="bold"
+                                    android:textColor="#fff"
+                                    android:text="About Developer"
+                                    style="@style/textviewstyle"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_height="wrap_content"
+            android:background="#ffff">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:background="#ffff"
+                android:padding="12dp">
+
+                <LinearLayout
+                    android:id="@+id/dash_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#1979bc"
+                        android:padding="4dp"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:textStyle="bold"
+                        android:background="#ffff00"
+                        android:text=" XXXX XXXX  "
+                        android:textSize="18dp"/>
+                    <TextView
+                         android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#1979bc" android:gravity="center_horizontal|center_vertical"
+                         android:textStyle="bold"
+                         android:background="#ffff00"
+                         android:text="By Category"
+                         android:paddingBottom="1dp"
+                         android:textSize="12dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <!--rti news end....-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#f7f6f6"
+            app:cardElevation="5dp">
+            <!-- <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+                 <AdapterViewFlipper
+                     android:id="@+id/simpleAdapterViewFlipper"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+                 </AdapterViewFlipper>
+                 <RelativeLayout
+                     android:layout_width="wrap_content"
+                     android:layout_marginTop="-24dp"
+                     android:layout_height="match_parent">
+                     <LinearLayout
+                         android:id="@+id/offer_back"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:paddingLeft="10dp"
+                         android:paddingRight="10dp"
+                         android:paddingBottom="2dp"
+                         android:paddingTop="2dp"
+                         android:layout_alignParentStart="true"
+
+                         >
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/offerback"
+                             />
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:id="@+id/offer_next"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:paddingLeft="10dp"
+                         android:paddingRight="10dp"
+                         android:layout_alignParentRight="true"
+
+                         >
+                         <ImageView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:src="@drawable/offerforward"
+
+                             />
+                     </LinearLayout>
+                 </RelativeLayout>
+
+             </LinearLayout>-->
+
+
+        </android.support.v7.widget.CardView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="13dp"
+            android:textAlignment="center"
+            android:text="Food Booking"
+            android:textStyle="bold"
+            android:layout_gravity="bottom"
+            android:textColor="#000"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="10dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:text="www.google.com"
+            android:layout_gravity="bottom"
+            android:textColor="#000"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
